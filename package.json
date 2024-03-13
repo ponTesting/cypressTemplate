@@ -1,0 +1,22 @@
+{
+  "name": "cypress-template",
+  "version": "1.0.0",
+  "description": "Cypress automation template",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "regression:chrome": "cypress run --browser chrome",
+    "regression:edge": "cypress run --browser edge"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "15.1.4",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "cypress": "12.0.0",
+    "cypress-multi-reporters": "1.6.2",
+    "esbuild-plugin-node-builtin-polyfills": "1.0.1",
+    "multiple-cucumber-html-reporter": "3.2.0"
+  }
+}
